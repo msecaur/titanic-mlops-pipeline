@@ -1,0 +1,21 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Virtual environments
+.env
+.venv/
+env/
+ENV/
+
+# macOS system files
+.DS_Store
+
+# Local data
+data/
