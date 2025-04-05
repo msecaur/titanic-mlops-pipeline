@@ -1,0 +1,12 @@
+curl -X POST http://localhost:8080/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+        "Pclass": 3,
+        "Age": 28.0,
+        "SibSp": 0,
+        "Parch": 0,
+        "Fare": 7.25,
+        "Age_cleaned": 28.0,
+        "Embarked": "S",
+        "Embarked_cleaned": "S"
+      }'
